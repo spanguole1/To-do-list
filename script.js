@@ -8,8 +8,6 @@ tasks.forEach(task => {
     addTask(task.text, task.completed);
 });
 
-
-
 addButton.addEventListener("click", handleAddTask);
 
 input.addEventListener("keydown", function (event) {
